@@ -1,0 +1,23 @@
+.rodape {
+    
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 105px;
+}
+
+.fb,.insta,.tt {
+    gap: 5px;
+    margin-right: 25px;
+    padding-bottom:25px;
+    position: relative;
+    bottom: 25px;
+}
+
+.endereço {
+    margin-bottom: 15px;
+    margin-right: 25px;
+    position: relative;
+    bottom: 25px;
+}
+
