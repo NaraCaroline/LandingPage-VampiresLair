@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Vampire's Lair - Ingressos</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/vl.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/ingressos/ingressos.css">
+    <link rel="stylesheet" href="css/ingressos/header.css">
+    <link rel="stylesheet" href="css/ingressos/main.css">
+    <link rel="stylesheet" href="css/ingressos/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  
+    <header class="cabecalho">
+        <img class="logo" src="img/vl.svg" alt="Logo Vampire's Lair">
+        <nav class="menu">
+          <a href="./index.html" class="menuitem1">Home</a>
+          <a href="./contato.html"class="menuitem2">Contato</a>
+          <a href="./galeria.html" class="menuitem3">Galeria</a>
+          <a href="./programacao.html" class="menuitem4">Programação</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="areacompras">
+          <div class="conteudo">
+            <form>
+                <p class="inteira">Inteira</p>
+                <p class="preçointeira">R$150,00</p>
+      
+                <p class="estudante">Estudante</p>
+                <p class="preçoestudante">R$75,00</p>
+      
+                <!--<p class="total"><strong>Total</strong></p>
+                <p class="real"><strong>R$</strong></p>
+
+                
+                <input class="quantidade1" type="number" id="inputinteira" min="0" max="10" onKeyDown="return false">
+                <input class="quantidade2" type="number" id="inputestudante" min="0" max="10" onKeyDown="return false">
+                <input type="text" name="total" id="total" /><br>
+                <input class="totalcompra" type="text" id="valor-output" readonly />-->
+
+                <input type="number" name="campo1" id="campo1" min="0" max="10" onKeyDown="return false"/><br>
+
+                <input type="number" name="campo2" id="campo2"min="0" max="10" onKeyDown="return false" /><br>
+
+                <p class="totalzinho1">Total : R$</p><input type="text" name="total" id="total" /><p class="totalzinho2">,00</p><br>
+                
+                <input type="button" class="calcular" value="Calcular" onclick="calcSum()">
+
+                <button class="buttoncompra" type="button" style="vertical-align:middle"><span>Compre já</span></button>
+               
+              </form>
+          </div>
+          <div class="foto">
+            <img class="balada1" src="img/balada1.png" alt="Imagem Casa Noturna">
+          </div>
+        </section>
+      </main>
+
+      <script src="js/compra.js"></script>
+
+  </body>

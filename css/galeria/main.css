@@ -1,0 +1,40 @@
+.galeria {
+	display: flex;
+	padding: 2px;
+	transition: .3s;
+
+	-webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+.galeria:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	filter: none;
+ }
+
+.titulo {
+	font-family: 'Philosopher', sans-serif;
+	text-transform: uppercase;
+	color: rgb(255, 255, 81);
+	font-size: 55px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.subtitulo {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+	text-align: center;
+}
+
+.galeria {
+	text-align: center;
+	justify-content: center;
+}
+

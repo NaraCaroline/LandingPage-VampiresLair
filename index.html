@@ -8,33 +8,28 @@
     <meta name="description" content="Um clube noturno fictício.">
 
     <link rel="shortcut icon" href="img/vl.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <style type="text/css">
-      body{
-        background-image: url("img/balada.png");
-        background-size: cover;
-      }
-    </style>
+    <link rel="stylesheet" href="css/index/style.css">
+    <link rel="stylesheet" href="css/index/header.css">
+    <link rel="stylesheet" href="css/index/main.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="stylesheet" href="css/index/popupmodal.css">
   </head>
 
   <body>
+    
     <header class="cabecalho">
       <div class="quadradinho"></div>
       <img class="logo" src="img/vl.svg" alt="Logo Vampire's Lair">
       <nav class="menu">
-        <a class="menuitem1">Home</a>
-        <a class="menuitem2">Contato</a>
-        <a class="menuitem3">Galeria</a>
-        <a class="menuitem4">Programação</a>
+        <a href="./index.html">Home</a>
+        <a href="./contato.html" class="menuitem2">Contato</a>
+        <a href="./galeria.html" class="menuitem3">Galeria</a>
+        <a href="./programacao.html" class="menuitem4">Programação</a>
       </nav>
     </header>
 
     <main>
       <section class="conteudoprincipal">
-
         <div class="conteudoescrito">
           <h1>Música ao vivo</h1>
           <h2>A noite <span style="color:rgb(255, 245, 101)"> inteira</span>.</h2>
@@ -52,10 +47,9 @@
         <img class="iconluiza" src="img/iconluiza.png" alt="Imagem DJ Luiza">
         <p class="luizanome">DJ Luiza</p>
       </div>
-
       </section>
-   
     </main>
+
 
     <footer class="rodape">
       <p class="endereço">Rua Alguma Coisa, bairro Não Sei, 1320</p>
@@ -64,6 +58,26 @@
       <img class="tt" src="img/icontwitter.svg">
     </footer>
 
+    <div id="modal-ingresso" class="modal-container">
+      <div class="modal">
+        <button class="fechar"> x </button>
+
+
+        <h3 class="subtitulo">Ingressos disponíveis</h3>
+        <p class="dataingresso">Para sexta-feira, 25 de março</p>
+        
+        <p class="termos1">⭐ Em 2022 o ingresso será exclusivamente em formato digital: Um ingresso seguro, anti-cópia, totalmente rastreável, com bloqueio de utilização duplicada e que é compatível com a grande maioria dos smartphones do mercado.</p>
+        <p class="termos2">⭐ Para proteger você ainda mais contra qualquer fraude, o ingresso não pode ser impresso em casa.</p>
+        <p class="termos3">⭐ Nesse momento seu ingresso ainda é virtual e estará sempre disponível no histórico de compras. Mais adiante informaremos o passo a passo para baixar seu ingresso no seu smartphone e todas as funcionalidades do seu novo ingresso.</p>
+        <p class="termos4">⭐ Menores de 16 anos só acompanhados de responsáveis.</p>
+
+        <button onclick="location.href = './ingressos.html';" class="button" >Adquira seu ingresso</button>
+
+
+      </div>
+    </div>
+
+    <script src="js/modal.js"></script>
 
   </body>
 </html>

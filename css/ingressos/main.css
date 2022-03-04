@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    background-image: url("../../img/dust.png");
+    background-size: 100%;
+}
+
+.areacompras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.863);
+    
+}
+
+.conteudo {
+    display: inline-block;
+    width: 100%;
+    padding: 60px;
+   
+}
+
+.inteira, .estudante {
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    color: rgb(192, 19, 19);
+}
+
+.inteira {
+    position: relative;
+    bottom: 0px;
+}
+
+.estudante {
+    border-top: 1px dashed rgb(49, 49, 49);
+    padding-top: 40px;
+    position: relative;
+    top: 55px;
+}
+
+.preçointeira, .preçoestudante {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+}
+
+.preçointeira {
+    position: relative;
+    bottom: 0px;
+}
+
+.preçoestudante {
+    position: relative;
+    top: 55px;
+}
+
+#campo1, #campo2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    height: 55px;
+    width: 80px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    left: 80%;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 15px;
+}
+
+#campo1 {
+    position: relative;
+    bottom: 150px;
+}
+
+#campo2 {
+    position: relative;
+    bottom: 70px;
+ 
+}
+
+.balada1 {
+    width: 430px;
+    position: relative;
+    top: -1px;
+}
+
+.buttoncompra {
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #a70000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  left: 25%;
+  top: 40px;
+}
+
+.buttoncompra span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .buttoncompra span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .buttoncompra:hover span {
+    padding-right: 25px;
+  }
+
+  .buttoncompra:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .totalzinho1 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    top: 20px;
+    left: 65%;
+  }
+
+  .totalzinho2 {
+      font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    bottom: 64px;
+    left: 90%;
+  }
+
+  .calcular {
+    position: relative;
+    bottom: 70px;
+    left: 79%;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(165, 21, 21);
+    color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #total {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    height: 55px;
+    width: 80px;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 47vw;
+    bottom: 30px;
+    border: 5px outset  rgb(196, 48, 48);
+    border-radius: 15px;
+  }
+
+
+.real {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    top: 70px;
+    left: 78%;
+
+}

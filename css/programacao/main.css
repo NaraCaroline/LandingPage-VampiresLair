@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@200&display=swap');
+
+body {
+	background: #262a2b;
+}
+
+.programacao {
+font-family: 'Philosopher', sans-serif;
+	text-transform: uppercase;
+	color: rgb(255, 255, 81);
+	font-size: 43px;
+	text-align: center;
+	padding-top: 60px;
+    margin-bottom: -20px;
+}
+
+.subprogramacao {
+    font-family: 'Poppins', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 17px;
+	text-align: center; 
+    padding-top: 24px;
+}
+
+.atracoes {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+}
+.atracoes li {
+	display: inline-block;
+	width: 20%;
+	min-width: 200px;
+	max-width: 230px;
+	padding: 80px 20px 40px;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	font-family: 'helvetica', san-serif;
+	min-height: 25vh;
+	background: #262a2b;
+	border: 1px solid #252727;
+	text-align: left;
+}
+.atracoes li h2 {
+	font-size: 114px;
+	margin: 0;
+	position: absolute;
+	opacity: 0.2;
+	top: 50px;
+	right: 10px;
+	transition: all 0.3s ease-in-out;
+}
+.atracoes li h3 {
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+.atracoes li p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #b7b7b7;
+	margin-top: 5px;
+}
+.atracoes li button {
+	background: transparent;
+	border: 1px solid #b7b7b7;
+	padding: 10px 20px;
+	color: #b7b7b7;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-40px);
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.atracoes li button:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 120%;
+	background: #b7b7b7;
+	top: 0;
+	opacity: 0;
+	left: -140px;
+	border-radius: 0 20px 20px 0;
+	z-index: -1;
+	transition: all 0.3s ease-in-out;
+	
+}
+.atracoes li:hover button {
+	transform: translateY(5px);
+	opacity: 1;
+}
+.atracoes li button:hover {
+	color: #262a2b;
+}
+.atracoes li button:hover:before {
+	left: 0;
+	opacity: 1;
+}
+.atracoes li:hover h2 {
+	top: 0px;
+	opacity: 0.6;
+}
+
+.atracoes li:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	z-index: -1;
+	background: #fff;
+	transform: skew(2deg, 2deg);
+}
+.atracoes li:after {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.02);
+}
+.atracoes li:nth-child(1):before {
+	background: #ff0000;
+background: -webkit-linear-gradient(to right, #FFAFBD, #ff3131);
+background: linear-gradient(to right, #ff2600ce, #ffa600);
+}
+.atracoes li:nth-child(2):before {
+	background: #ff5100;
+background: -webkit-linear-gradient(to right, #ff5e2d, #f2709c);
+background: linear-gradient(to right, #ffae00, #ff0202);
+}
+.atracoes li:nth-child(3):before {
+	background: #c21500;
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+background: linear-gradient(to right, #ff0000, #ffbb00);
+}
+.atracoes li:nth-child(4):before {
+	background: #FC354C;
+background: -webkit-linear-gradient(to right, #ff0000, #ff8391);
+background: linear-gradient(to right, #fffb00, #ff0000);
+}

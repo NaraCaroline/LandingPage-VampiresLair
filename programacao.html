@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/vl.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/programacao/header.css">
+    <link rel="stylesheet" href="css/programacao/main.css">
+    <link rel="stylesheet" href="css/programacao/style.css">
+
+    <title>Vampire's Lair - Programação</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/vl.svg" alt="Logo Vampire's Lair">
+        <nav class="menu">
+          <a href="./index.html" class="menuitem1">Home</a>
+          <a href="./contato.html" class="menuitem2">Contato</a>
+          <a href="./galeria.html" class="menuitem3">Galeria</a>
+          <a href="./programacao.html" class="menuitem4">Programação</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="programacao">Programação de MARÇO</h1>
+        <h2 class="subprogramacao">O mês de março conta com presenças ilustres e shows exclusivos. Confira!</h2>
+        
+        <ul class="atracoes">
+            <li>
+                <h2>07</h2>
+                <h3>Eletrônica</h3>
+                <p>
+                    Dia 07/03/2022 contamos com o som de DJ Ana e DJ Luiza. Seus últimos remixes foram um sucesso esse verão!
+                </p>
+                <button class="playeletro" onclick="play()">Conheça o som!</button>
+                <audio id="audioeletro" src="audio/eletronica1.wav"></audio>
+            </li>
+            <li>
+                <h2>09</h2>
+                <h3>Indie</h3>
+                <p>
+                    Dia 09/03/2022 teremos a presença das novas bandas indie Rosa-Rosa e Mozzarella. Não perca esse show!
+                </p>
+                <button class="playindie" onclick="play()">Conheça o som!</button>
+                <audio id="audioindie" src="audio/indie1.wav"></audio>
+            </li>
+            <li>
+                <h2>11</h2>
+                <h3>Pop</h3>
+                <p>
+                    As cantoras pop Lady Lala e Brittany Swords estarão em nosso palco dia 11/03/2022. Não perca!
+                </p>
+                <button class="playpop" onclick="play()">Conheça o som!</button>
+                <audio id="audiopop" src="audio/pop1.wav"></audio>
+            </li>
+            <li>
+                <h2>15</h2>
+                <h3>Rock</h3>
+                <p>
+                    Por ultimo contaremos com as bandas Blue Cold Chilli Beans e The Ugly Reckless no dia 15/03/2022!
+                </p>
+                <button class="playrock" onclick="play()">Conheça o som!</button>
+                <audio id="audiorock" src="audio/rock1.wav"></audio>
+            </li>
+        </ul>
+
+    </main>
+
+    <script src="js/programacao.js"></script>
+</body>

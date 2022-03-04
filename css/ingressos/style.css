@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Bebas+Neue&family=Nunito+Sans:wght@200&family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    font-size: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(160, 0, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(117, 0, 0);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
+    text-transform: uppercase;
+    font-weight: 600;
+}

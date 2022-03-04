@@ -22,15 +22,23 @@
   top: -40px;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .menu {
     display: flex;
     width: 100%;
     justify-content: center;
     position: relative;
-    top: -15px;
+    top: 10px;
     gap: 30px;
     font-size: 25px;
     text-shadow: 3px 3px 20px black;
+    cursor: pointer;
+    right: 20px;
+    padding-top: 15px;
 }
 
 .menuitem1 {
@@ -96,3 +104,4 @@
     text-decoration: underline;
     color: rgb(255, 228, 106);
 }
+

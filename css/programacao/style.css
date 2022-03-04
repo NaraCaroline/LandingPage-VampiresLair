@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Bebas+Neue&family=Nunito+Sans:wght@200&family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    font-size: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #1a1a1a;
+    background-image: url("../../img/dust.png");
+    background-size: 100%;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(160, 0, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(117, 0, 0);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.programacao
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff0000 0%,
+    #c73f00 29%,
+    #ffe54f 67%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
